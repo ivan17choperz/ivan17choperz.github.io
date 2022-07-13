@@ -20,12 +20,12 @@
 			xsmall:	'(max-width: 480px)'
 		});
 
-	// Play initial animations on page load.
-		// $window.on('load', function() {
-		// 	window.setTimeout(function() {
-		// 		$body.removeClass('is-preload');
-		// 	}, 10);
-		// });
+	//  Play initial animations on page load.
+		 $window.on('load', function() {
+		 	window.setTimeout(function() {
+		 		$body.removeClass('is-preload');
+		 	}, 10);
+		 });
 
 	// Header.
 		if ($banner.length > 0
